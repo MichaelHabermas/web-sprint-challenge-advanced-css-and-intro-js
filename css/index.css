@@ -240,10 +240,15 @@ button:hover {
 	.artists-container {
 		align-items: center;
 		flex-direction: column;
+		margin-bottom: 30%;
 	}
 
 	.artist {
 		width: 80%;
 		margin: 5% 0 0;
+	}
+
+	.bio {
+		font-size: 1.3rem;
 	}
 }
