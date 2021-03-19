@@ -205,15 +205,38 @@ button:hover {
 	width: 100%;
 }
 
+@media (max-width: 900px) {
+	/*HEADER STYLES */
+	nav a {
+		padding: 0 1rem;
+	}
+
+	/*Artists Section Styles */
+
+	img {
+		/* height: 50%; */
+	}
+	.artists-container {
+		align-items: center;
+		flex-direction: column;
+		/* margin-bottom: 30%; */
+	}
+
+	.artist {
+		width: 80%;
+		/* margin: 5% 0 0; */
+	}
+
+	.bio {
+		/* font-size: 1.3rem; */
+	}
+}
+
 @media (max-width: 500px) {
 	/*HEADER STYLES */
 	nav a {
 		font-size: 2rem;
 		width: 100%;
-	}
-	nav a {
-		color: #626262;
-		padding: 0 1rem;
 	}
 	nav span {
 		border-left: 1px solid #626262;
